@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import java.util.stream.IntStream;
@@ -33,7 +34,9 @@ public class JavaShogi extends Application {
                 rectangle.setOnMouseExited(mouseEvent -> {
                     rectangle.setFill(Color.WHITE);
                 });
-                gridGroup.getChildren().add(rectangle);
+                Text text = new Text(i*CELL_SIZE, j*CELL_SIZE, "T");
+                gridGroup.getChildren().addAll(rectangle, text);
+
             })
         );
 
