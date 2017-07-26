@@ -12,11 +12,9 @@ import java.util.List;
 public class King implements Piece {
     private PieceEngine engine;
     private final PieceType type = PieceType.KING;
-    private UserType userType;
 
     public King(int x, int y, UserType userType){
-        engine = new KingEngine(x,y);
-        this.userType = userType;
+        engine = new KingEngine(x,y, userType);
     }
 
     @Override
