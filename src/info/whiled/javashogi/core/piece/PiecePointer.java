@@ -5,7 +5,6 @@ public class PiecePointer {
     private int y;
 
     public PiecePointer(int x, int y) {
-
         this.x = x;
         this.y = y;
     }
@@ -16,5 +15,10 @@ public class PiecePointer {
 
     public int getY() {
         return y;
+    }
+
+    public void set(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 }

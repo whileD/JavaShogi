@@ -4,14 +4,13 @@ import info.whiled.javashogi.core.UserType;
 import info.whiled.javashogi.core.piece.Piece;
 import info.whiled.javashogi.core.piece.PieceType;
 
-public class King extends  Piece{
-    private static final PieceType PIECE_TYPE = PieceType.KING;
-    private final static int[] nextX = {0, 1, 1, 1, 0, -1, -1, -1};
-    private final static int[] nextY = {1, 1, 0, -1, -1, -1, 0, 1};
+public class Bishop extends Piece{
+    private static final PieceType PIECE_TYPE = PieceType.BISHOP;
+    private static final int[] NEXT_X = {-1, 1, 1, -1};
+    private static final int[] NEXT_Y = {1, 1, -1, -1};
 
-    public King(int x, int y, UserType userType) {
+    public Bishop(int x, int y, UserType userType) {
         super(x, y, userType);
-
     }
 
     @Override
@@ -22,9 +21,9 @@ public class King extends  Piece{
     @Override
     public boolean canMove(int x, int y) {
         int nx, ny;
-        for (int i=0; i<nextX.length; i++){
-            nx = pointer.getX() + nextX[i];
-            ny = pointer.getY() + nextY[i];
+        for (int i=0; i<NEXT_X.length; i++){
+            nx = pointer.getX() + NEXT_X[i];
+            ny = pointer.getY() + NEXT_Y[i];
             if (nx < 0 || 2 < nx) continue;
             if (ny < 0 || 3 < ny) continue;
             if (nx != x || ny != y) continue;

@@ -2,13 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/IOUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Bishop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Rook.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Promotional.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/GoldGeneralEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/PawnEngine.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/scene/Board.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/scene/BoardSquare.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/board/japanese-chess-b02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/board/japanese-chess-bdl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/board/japanese-chess-bds.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/board/japanese-chess-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/bishop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/gking.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/goldg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/king.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/knight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/lance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/p_bishop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/p_knight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/p_lance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/p_pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/p_rook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/p_silverg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/rook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/rival/silverg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/bishop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/gking.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/goldg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/king.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/knight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/lance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/p_bishop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/p_knight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/p_lance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/p_pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/p_rook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/p_silverg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/pawn.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/rook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/static/user/silverg.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/Main.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/UserType.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/UserType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceEngine.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/GoldGeneralEngine.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/GoldGeneralEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PiecePointer.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PiecePointer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/King.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/King.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java" afterPath="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,17 +114,94 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoldGeneralEngine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/GoldGeneralEngine.java">
+    <leaf>
+      <file leaf-file-name="PieceType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+            <state relative-caret-position="152">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Operator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Board.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1552#1553#0" expanded="true" />
+                <element signature="e#1587#1588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/IOUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pawn.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,28 +240,40 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/scene/BoardSquare.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PiecePointer.java" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/King.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/NormalPiece.java" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Promotional.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/UserType.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/scene/Board.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Promotional.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/PawnEngine.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/Main.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PromotionablePiece.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/UserType.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PiecePointer.java" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceEngine.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java" />
-        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/King.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/GoldGeneral.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/BishopEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/RookEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KnightEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/PawnEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/LanceEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/SilverGeneralEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/NormalPiece.java" />
         <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/GoldGeneralEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/BISHOP.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/bishop.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Bishop.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/King.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Rook.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/IOUtils.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java" />
+        <option value="$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java" />
       </list>
     </option>
   </component>
@@ -146,9 +284,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="239" />
-    <option name="y" value="147" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="238" />
+    <option name="y" value="107" />
     <option name="width" value="1602" />
     <option name="height" value="846" />
   </component>
@@ -171,7 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,7 +340,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javashogi" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="piece" type="462c0819:PsiDirectoryNode" />
+              <item name="board" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaShogi" type="b2602c69:ProjectViewProjectNode" />
@@ -212,7 +349,6 @@
               <item name="javashogi" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="piece" type="462c0819:PsiDirectoryNode" />
-              <item name="engines" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaShogi" type="b2602c69:ProjectViewProjectNode" />
@@ -228,8 +364,9 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -717,37 +854,42 @@
       <workItem from="1500748133684" duration="27000" />
       <workItem from="1500799777955" duration="15497000" />
       <workItem from="1500984261282" duration="3109000" />
-      <workItem from="1501056740953" duration="4195000" />
+      <workItem from="1501056740953" duration="4818000" />
+      <workItem from="1501913474379" duration="607000" />
+      <workItem from="1502017209062" duration="68000" />
+      <workItem from="1502187998258" duration="6653000" />
+      <workItem from="1502258805703" duration="44840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31327000" />
+    <option name="totallyTimeSpent" value="84118000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="239" y="147" width="1602" height="846" extended-state="0" />
+    <frame x="238" y="107" width="1920" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18494624" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17311828" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35913977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268817" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17305644" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27419356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -757,7 +899,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -775,7 +916,17 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -783,85 +934,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="true" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/scene/BoardSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/scene/BoardSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/scene/BoardSquare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/scene/BoardSquare.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -911,46 +983,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/NormalPiece.java" />
     <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/scene/Board.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="40" column="10" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="40" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/UserType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PiecePointer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -968,25 +1004,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/PawnEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="29" column="25" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +1036,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +1043,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,12 +1057,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1501088976895" expanded="true" signature="63781:63798" ph="..." />
-            <marker date="1501088976895" expanded="true" signature="63781:63816" ph="..." />
-            <marker date="1501088976895" expanded="true" signature="63781:63829" ph="..." />
-            <marker date="1501088976895" expanded="true" signature="63781:63844" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1059,56 +1068,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/King.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PromotionablePiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/UserType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PiecePointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/PawnEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/NormalPiece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/GoldGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1121,18 +1136,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java">
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/JavaShogi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java">
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/BishopEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="209">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/SilverGeneralEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" lean-forward="false" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/LanceEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/RookEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KingEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/KnightEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="28" column="27" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1141,13 +1216,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/engines/GoldGeneralEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="7" column="53" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Bishop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Rook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/PieceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/pieces/Pawn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="57" lean-forward="false" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/piece/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Operator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/board/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1552#1553#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/whiled/javashogi/core/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="62" column="29" lean-forward="false" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
           </folding>
         </state>
       </provider>
